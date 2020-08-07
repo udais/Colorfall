@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="IconLocation">
+        <ignore path="src/main/res/drawable/add_colors.png" />
+        <ignore path="src/main/res/drawable/add_colors.png" />
+        <ignore path="src/main/res/drawable/add_grid.png" />
+        <ignore path="src/main/res/drawable/border.png" />
+        <ignore path="src/main/res/drawable/canvas_background.png" />
+        <ignore path="src/main/res/drawable/color_pick.png" />
+        <ignore path="src/main/res/drawable/delete_canvas.png" />
+        <ignore path="src/main/res/drawable/done.png" />
+        <ignore path="src/main/res/drawable/eraser.png" />
+        <ignore path="src/main/res/drawable/gridtoggle.png" />
+        <ignore path="src/main/res/drawable/load.png" />
+        <ignore path="src/main/res/drawable/old_save.png" />
+        <ignore path="src/main/res/drawable/paintbucket.png" />
+        <ignore path="src/main/res/drawable/pixel_pen.png" />
+        <ignore path="src/main/res/drawable/save_file.png" />
+        <ignore path="src/main/res/drawable/tempicon.png" />
+    </issue>
+    <issue id="UnusedResources">
+        <ignore path="src/main/res/drawable/add_grid.png" />
+        <ignore path="src/main/res/drawable/done.png" />
+        <ignore path="src/main/res/drawable/old_save.png" />
+    </issue>
+</lint>

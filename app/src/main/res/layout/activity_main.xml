@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#86C5FF"
+    tools:context=".MainActivity"
+    tools:ignore="Overdraw">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="155dp"
+        android:fontFamily="sans-serif-condensed"
+        android:shadowColor="#00FF0000"
+        android:text="COLORFALL"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText"
+        tools:visibility="invisible" />
+
+    <Button
+        android:id="@+id/drawBtn"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="115dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="10dp"
+        android:background="#D77148"
+        android:shadowDx="0"
+        android:text="Draw"
+        android:textColor="#020000"
+        app:layout_constraintBottom_toTopOf="@+id/galleryBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tempLogo"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/galleryBtn"
+        android:layout_width="115dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="10dp"
+        android:background="#536DFE"
+        android:backgroundTint="#00FF0000"
+        android:backgroundTintMode="src_over"
+        android:text="Gallery "
+        android:textColorLink="#1061B8"
+        app:layout_constraintBottom_toTopOf="@+id/templatesBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/drawBtn"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/templatesBtn"
+        android:layout_width="115dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="10dp"
+        android:background="#56B386"
+        android:text="Templates"
+        app:layout_constraintBottom_toTopOf="@+id/importBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/galleryBtn"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/importBtn"
+        android:layout_width="115dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="100dp"
+        android:background="#4DD6D0"
+        android:text="Import"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/templatesBtn"
+        tools:ignore="HardcodedText" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.43" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="355dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="440dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="525dp" />
+
+    <ImageView
+        android:id="@+id/tempLogo"
+        android:layout_width="164dp"
+        android:layout_height="147dp"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="22dp"
+        app:layout_constraintBottom_toTopOf="@+id/drawBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tempicon"
+        android:contentDescription="logo"
+        tools:ignore="HardcodedText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

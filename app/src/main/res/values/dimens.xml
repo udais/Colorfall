@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="app_bar_height" tools:keep="@dimen/app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin" tools:keep="@dimen/text_margin">16dp</dimen>
+    <dimen name="pixel_brush">30dp</dimen>
+    <integer name="pixel_size" tools:keep="@integer/pixel_size">20</integer>
+</resources>
